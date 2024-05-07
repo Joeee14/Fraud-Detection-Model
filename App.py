@@ -18,7 +18,7 @@ def predict_fraud(features):
     prediction = model.predict(features_scaled)
     return prediction[0]
 def show_Predict_page():
-    st.title('Fraud Detection System')
+    st.title('Fraud Detection System 💳')
     distance_from_home = st.number_input('Distance from Home', format="%.2f")
     distance_from_last_transaction = st.number_input('Distance from Last Transaction', format="%.2f")
     ratio_to_median_purchase_price = st.number_input('Ratio to Median Purchase Price', format="%.2f")
