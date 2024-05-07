@@ -1,5 +1,4 @@
 numpy
 joblib
 pandas
-pickle
 scikit-learn
